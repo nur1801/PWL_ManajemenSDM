@@ -8,7 +8,7 @@ class welcomeController extends Controller
 {
     public function index(){
         $breadcrumb = (object)[
-            'title' => 'Selamat Datang',
+            'title' => 'Welcome To HRSync',
             'list'  =>['Home', 'Welcome']
         ];
         $activeMenu = 'dasboard';
