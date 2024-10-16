@@ -127,6 +127,7 @@
                 <div class="view">View</div>
             </div>
         </div>
+        <div class="lalalalalalala">dwdhajwdwh</div>
         <p>rifki</p>
         <div class="schedule-item">
             <div>
@@ -171,4 +172,3 @@
 </body>
 @endsection
 
-aku gikutyg
