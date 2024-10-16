@@ -127,6 +127,7 @@
                 <div class="view">View</div>
             </div>
         </div>
+        <p>rifki</p>
         <div class="schedule-item">
             <div>
                 <div class="title"><i class="fas fa-circle icon"></i> Meeting</div>
