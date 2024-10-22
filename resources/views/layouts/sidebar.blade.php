@@ -20,36 +20,37 @@
               </a>
           </li>
           <li class="nav-header">Kegiatan</li>
-          <li class="nav-item">
-              <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'kegiatan' ? 'active' : '' }} ">
-                  <i class="nav-icon fas fa-calendar-alt"></i> <!-- Mengganti logo dengan ikon yang sesuai -->
-                  <p>Kegiatan Agenda</p>
-              </a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'kegiatan' ? 'active' : '' }} ">
-                <i class="fa-solid fa-square-person-confined"></i>"></i> <!-- Mengganti logo dengan ikon yang sesuai -->
-                <p>Kegiatan </p>
-            </a>
-        </li>
-          <li class="nav-item">
-              <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'dosen' ? 'active' : '' }} ">
-                  <i class="nav-icon fas fa-chalkboard-teacher"></i> <!-- Mengganti logo dengan ikon yang sesuai -->
-                  <p>Dosen</p>
-              </a>
-          </li>
-          <li class="nav-item">
-              <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'repository' ? 'active' : '' }} ">
-                  <i class="nav-icon fas fa-book"></i> <!-- Mengganti logo dengan ikon yang sesuai -->
-                  <p>Repository</p>
-              </a>
-          </li>
-          <li class="nav-item">
-              <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'saran' ? 'active' : '' }} ">
-                  <i class="nav-icon fas fa-comments"></i> <!-- Mengganti logo dengan ikon yang sesuai -->
-                  <p>Saran</p>
-              </a>
-          </li>
+                <li class="nav-item">
+                    <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'kegiatan' ? 'active' : '' }} ">
+                        <i class="nav-icon fas fa-calendar-alt"></i> 
+                        <p>Kegiatan Agenda</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'kegiatan' ? 'active' : '' }} ">
+                        <i class="nav-icon fa fa-calendar-check-o"></i>
+                        <p>Kegiatan Anggota</p>
+                    </a>
+                </li>
+            </li>
+            <li class="nav-item">
+                <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'dosen' ? 'active' : '' }} ">
+                    <i class="nav-icon fas fa-chalkboard-teacher"></i> 
+                    <p>Dosen</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'repository' ? 'active' : '' }} ">
+                    <i class="nav-icon fas fa-book"></i> 
+                    <p>Repository</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ url('/') }}" class="nav-link {{ $activeMenu == 'saran' ? 'active' : '' }} ">
+                    <i class="nav-icon fas fa-comments"></i> 
+                    <p>Saran</p>
+                </a>
+            </li>
       </ul>
   </nav>
 </div>
